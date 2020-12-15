@@ -1,0 +1,55 @@
+.centered-content //Styles for the .centered-content div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.task-manager-container //Styles for the .task-manager-container div
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 900px;
+    max-height: 480px;
+    
+}
+
+.sidebar //Styles for the sidebar div
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 250px;
+    padding: 40px;
+    
+    background: white;
+    //border-radius: 8px;
+
+    //Making left side only of sidebar div have round edges
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+
+}
+
+.task-list-container //Styles for the .task-list-container div
+{
+    display: flex;
+    flex-grow: 1;
+    padding: 37px;
+
+    //Makes right side only of tasklist have round edges
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.title {
+    font-family: 'Lato';
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
