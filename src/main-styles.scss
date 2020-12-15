@@ -9,6 +9,7 @@ $green: #27d7a1;
 $light-green: #45f69e;
 $light: #f8f8f8;
 $dark-green: rgb(0,100,80);
+$yellow: yellow;
 
 //Update Bulma's Global variables
 $family-san-serif: "Nuiito", sans-serif;
@@ -25,7 +26,7 @@ $input-shadow: none;
 
 html
 {
-    background: linear-gradient(to right top, $turquoise, $green);
+    background: linear-gradient(to right top, $yellow, $green);
 }
 
 html,body
